@@ -1,3 +1,5 @@
+package thread;
+
 class Calculo {
 	
 	static Integer token = 1;

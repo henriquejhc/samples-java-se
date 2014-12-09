@@ -1,4 +1,4 @@
-package heranca.sample01;
+package heranca;
 
 public class A extends Object {
 

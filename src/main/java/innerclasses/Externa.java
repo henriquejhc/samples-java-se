@@ -1,4 +1,4 @@
-package inner;
+package innerclasses;
 
 public class Externa {
 

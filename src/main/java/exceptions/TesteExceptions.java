@@ -1,3 +1,5 @@
+package exceptions;
+
 
 
 import java.io.IOException;
@@ -51,9 +53,9 @@ public class TesteExceptions {
 
 	public static void gerarExceptionRuntime() {
 		if (1 == 1) {
-			// Criação / Geração do erro
+			// Criaï¿½ï¿½o / Geraï¿½ï¿½o do erro
 			RuntimeException exception = new RuntimeException("Erro de alguma coisa");
-			// Lançamento do erro
+			// Lanï¿½amento do erro
 			throw exception;
 		}		
 	}
@@ -63,13 +65,13 @@ public class TesteExceptions {
 		gerarException();
 	}
 	
-	// Sinalização do erro
+	// Sinalizaï¿½ï¿½o do erro
 	public static void gerarException() throws IOException {
 		
 		if (1 == 1) {
-			// Criação / Geração do erro
+			// Criaï¿½ï¿½o / Geraï¿½ï¿½o do erro
 			IOException exception = new IOException("Erro de alguma coisa");
-			// Lançamento do erro
+			// Lanï¿½amento do erro
 			throw exception;
 		}
 	}

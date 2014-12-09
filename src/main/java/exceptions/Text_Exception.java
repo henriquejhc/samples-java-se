@@ -1,3 +1,5 @@
+package exceptions;
+
 import java.io.IOException;
 
 
@@ -25,14 +27,14 @@ public class Text_Exception {
 	
 	static int calcular(int x, int y) throws IOException, Exception {
 		if (x < 0) {
-			//RuntimeException exception = new RuntimeException("Não pode valor de X negativo");
-			Exception exception = new Exception("Não pode valor de X negativo");
+			//RuntimeException exception = new RuntimeException("Nï¿½o pode valor de X negativo");
+			Exception exception = new Exception("Nï¿½o pode valor de X negativo");
 			throw exception;
 		} else if (y < 0) {
-			IOException ioException = new IOException("Não pode valor Y negativo");
+			IOException ioException = new IOException("Nï¿½o pode valor Y negativo");
 			throw ioException;
 		} else if (x > 100) {
-			Exception exception = new Exception("Não pode valor de X > 100");
+			Exception exception = new Exception("Nï¿½o pode valor de X > 100");
 			throw exception;
 		}
 		

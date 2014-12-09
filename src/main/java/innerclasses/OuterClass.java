@@ -1,3 +1,5 @@
+package innerclasses;
+
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
@@ -26,7 +28,7 @@ public class OuterClass {
 	public static class InnerStatic {
 		
 		public void method() {
-			//x++; //(não static)
+			//x++; //(nï¿½o static)
 			y++;
 		}
 		

@@ -1,3 +1,8 @@
+package innerclasses;
+
+
+import innerclasses.OuterClass;
+
 
 
 public class Test_InnerClasses {
