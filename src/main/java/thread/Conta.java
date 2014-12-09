@@ -1,4 +1,4 @@
-package thread2;
+package thread;
 
 public class Conta {
 

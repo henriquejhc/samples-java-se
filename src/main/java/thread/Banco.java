@@ -1,4 +1,4 @@
-package thread2;
+package thread;
 
 public class Banco {
 	
@@ -14,7 +14,7 @@ public class Banco {
 		}
 	}
 	
-	// Regiao crítica
+	// Regiao crï¿½tica
 	public void transferir(int contaSaque, int contaDeposito, int valor) {
 		synchronized (this) {
 			if (contas[contaSaque].saldo < valor) 

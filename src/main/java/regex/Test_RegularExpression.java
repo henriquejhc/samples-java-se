@@ -1,3 +1,5 @@
+package regex;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,9 +12,9 @@ public class Test_RegularExpression {
 		
 //		Pattern padrao = Pattern.compile("(\\d\\d\\w)+");
 		
-		// Resultados avaliação da Regex sobre o texto
+		// Resultados avaliaï¿½ï¿½o da Regex sobre o texto
 //		Matcher matches = padrao.matcher(texto);
-//		// Navegação nos resultados
+//		// Navegaï¿½ï¿½o nos resultados
 //		while (matches.find()) {
 //			System.out.println("Encontrei o valor '" + matches.group() + "' na posicao " + matches.start());
 //		}
