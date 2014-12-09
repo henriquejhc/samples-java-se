@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.Comparator;
 import java.util.NavigableSet;
 import java.util.SortedSet;

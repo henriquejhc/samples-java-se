@@ -1,3 +1,5 @@
+package generics;
+
 import java.io.Serializable;
 
 public class Test_Generics {
@@ -40,9 +42,9 @@ public class Test_Generics {
 		//s.prin
 		
 //		ArrayList<String> strings = new ArrayList<String>();
-//		strings.add("João");
+//		strings.add("Joï¿½o");
 //		strings.add("Maria");
-//		strings.add("José");
+//		strings.add("Josï¿½");
 //		for (String x : strings) {
 //			System.out.println(x);
 //		}
