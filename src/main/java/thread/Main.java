@@ -4,12 +4,15 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		
-		MinhaThread t1 = new MinhaThread(10000, '-');
-		MinhaThread t2 = new MinhaThread(10000, '.');
+		MinhaThread t1 = new MinhaThread(100000, '-');
+		MinhaThread t2 = new MinhaThread(100000, '.');
 		
-		MeuRunnable r1 = new MeuRunnable(10000, '>');
-		MeuRunnable r2 = new MeuRunnable(10000, '0');
+		MeuRunnable r1 = new MeuRunnable(100000, '>');
+		MeuRunnable r2 = new MeuRunnable(100000, '0');
 
+                t1.setPriority(1);
+                t2.setPriority(10);
+                
 		t1.start();
 		t2.start();
 		

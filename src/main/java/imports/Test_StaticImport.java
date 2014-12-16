@@ -11,7 +11,7 @@ public class Test_StaticImport {
 		String s = "4321";
 		out.print(s);
 		
-		Calendar cal = getInstance();
+		//Calendar cal = getInstance();
 	}
 	
 }

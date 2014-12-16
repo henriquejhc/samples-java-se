@@ -37,7 +37,7 @@ public class Test_Generics {
 	public static void main(String ... args) {
 		
 		Super s = new Super();
-		Sub<String, Integer, Double> s2 = new Sub<String, Integer, Double>();
+		//Sub<String, Integer, Double> s2 = new Sub<String, Integer, Double>();
 		//s2.print(new Integer(1), "teste", new Double(2.5));
 		//s.prin
 		

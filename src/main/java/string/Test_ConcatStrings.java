@@ -7,7 +7,7 @@ public class Test_ConcatStrings {
 		
 		//StringBuffer buffer = new StringBuffer();
 		//StringBuilder buffer = new StringBuilder();
-		StringBuffer buffer = "teste";
+		StringBuffer buffer = null; //"teste";
 		
 		for (int x = 0; x < 100; x++) {
 			buffer.append("substring");
